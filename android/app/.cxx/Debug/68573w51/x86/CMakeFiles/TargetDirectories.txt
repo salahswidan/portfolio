@@ -1,0 +1,2 @@
+D:/Downloads/portfolio-master/portfolio-master/android/app/.cxx/Debug/68573w51/x86/CMakeFiles/edit_cache.dir
+D:/Downloads/portfolio-master/portfolio-master/android/app/.cxx/Debug/68573w51/x86/CMakeFiles/rebuild_cache.dir

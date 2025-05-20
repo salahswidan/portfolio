@@ -1,0 +1,71 @@
+name: portfolio
+description: "Modather Portfolio"
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ^3.6.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  font_awesome_flutter: ^10.8.0
+  responsive_builder: ^0.7.1
+  url_launcher: ^6.0.12
+  fluid_dialog: ^2.0.0
+  animations: ^2.0.11
+  flex_color_scheme: ^8.1.1
+  animated_text_kit: ^4.2.3
+  lottie: ^3.3.1
+  carousel_slider: ^5.0.0
+  responsive_grid_list: ^1.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.14.3"
+
+flutter_launcher_icons:
+  image_path: "assets/images/avatar.png"
+  web:
+    generate: true
+    image_path: "assets/images/avatar.png"
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/skills_icons/
+    - assets/projects_icons/
+    - assets/animated_icons/
+    - assets/recommendations/
+    - assets/images/profile_photo.jpg
+    - assets/images/supabase.png
+
+  fonts:
+    - family: Rubik
+      fonts:
+        - asset: assets/fonts/Rubik-Black.ttf
+        - asset: assets/fonts/Rubik-Bold.ttf
+        - asset: assets/fonts/Rubik-Italic.ttf
+        - asset: assets/fonts/Rubik-Light.ttf
+        - asset: assets/fonts/Rubik-Medium.ttf
+        - asset: assets/fonts/Rubik-Regular.ttf
