@@ -15,12 +15,13 @@ class AboutSectionMobileView extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         AboutMeWidget(),
-        const SizedBox(height: 32),
+        const SizedBox(height: 80),
         Row(
           mainAxisAlignment:
               kIsWeb ? MainAxisAlignment.spaceAround : MainAxisAlignment.start,
           children: [
             ViewResumeButton(),
+
             if (kIsWeb) Cv(),
           ],
         ),

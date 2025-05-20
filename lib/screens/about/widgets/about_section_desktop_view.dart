@@ -21,7 +21,7 @@ class AboutSectionDesktopView extends StatelessWidget {
               child: Column(
                 children: [
                   //  ViewResumeButton(),
-                  SizedBox(height: 30),
+                  SizedBox(height: 80),
                   Cv(),
                 ],
               ),

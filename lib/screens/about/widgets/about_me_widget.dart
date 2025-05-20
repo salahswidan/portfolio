@@ -55,6 +55,7 @@ class AboutMeWidget extends StatelessWidget {
           'I create beautiful and functional mobile applications with Flutter, I have experience dealing with Flutter framework, Passionate about clean code and great user experiences.',
           textAlign: TextAlign.justify,
           style: TextStyle(
+            wordSpacing: 0,
             fontSize: 18,
             color: Colors.white70,
           ),
